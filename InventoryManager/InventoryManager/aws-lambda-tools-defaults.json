@@ -13,6 +13,6 @@
     "s3-prefix"     : "InventoryManager/",
     "template"      : "serverless.template",
     "template-parameters" : "",
-    "s3-bucket"           : "inventory-manager-bucket2",
+    "s3-bucket"           : "inventorymanagerbucket",
     "stack-name"          : "InventoryManager"
 }

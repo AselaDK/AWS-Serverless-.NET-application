@@ -4,35 +4,11 @@
 	"Description" : "An AWS Serverless Application.",
 
 	"Resources" : {
-
-		"Get" : {
-			"Type" : "AWS::Serverless::Function",
+		"ConfigBucket": {
+			"Type": "AWS::S3::Bucket",
 			"Properties": {
-				"Handler": "InventoryManager.Database::InventoryManager.Database.Functions::Get",
-				"Runtime": "dotnetcore2.1",
-				"CodeUri": "",
-				"MemorySize": 256,
-				"Timeout": 30,
-				"Role": null,
-				"Policies": [ "AWSLambdaBasicExecutionRole" ],
-				"Events": {
-					"RootGet": {
-						"Type": "Api",
-						"Properties": {
-							"Path": "/",
-							"Method": "GET"
-						}
-					}
-				}
+				"BucketName": "inventory-manager-bucket"
 			}
-		}
-
-	},
-
-	"Outputs" : {
-		"ApiURL" : {
-			"Description" : "API endpoint URL for Prod environment",
-			"Value" : { "Fn::Sub" : "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/" }
 		}
 	}
 }
