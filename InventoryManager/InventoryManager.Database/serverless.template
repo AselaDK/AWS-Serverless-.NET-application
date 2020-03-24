@@ -7,7 +7,18 @@
 		"ConfigBucket": {
 			"Type": "AWS::S3::Bucket",
 			"Properties": {
-				"BucketName": "inventory-manager-bucket"
+				"BucketName": "inventory-manager-bucket-x10"
+			}
+		},
+		"Database": {
+			"Type": "AWS::RDS::DBInstance",
+			"Properties": {
+				"DBInstanceClass": "db.t2.micro",
+				"AllocatedStorage": "20",
+				"Engine": "sqlserver-ex",
+				"PubliclyAccessible": true,
+				"MasterUsername": "yourusername",
+				"MasterUserPassword": "youruserpassword"
 			}
 		}
 	}
