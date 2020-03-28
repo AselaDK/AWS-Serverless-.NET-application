@@ -20,7 +20,7 @@ namespace InventoryManager.Database
                 return;
             }
             //same uname password as serverless.template
-            optionsBuilder.UseSqlServer($"Server=iddg56telmtadz.cmxxgvnwvplv.ap-south-1.rds.amazonaws.com; Database=InventoryManagerDB; User Id = yourusername; Password=youruserpassword");
+            optionsBuilder.UseSqlServer($"Server=iddg56telmtadz.cmxxgvnwvplv.ap-south-1.rds.amazonaws.com; Database=InventoryManagerDB; User Id =yourusername; Password=youruserpassword");
             base.OnConfiguring(optionsBuilder);
         }
     }

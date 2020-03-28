@@ -17,7 +17,7 @@ namespace InventoryManager
 {
     public class GetPalletFunction
     {
-        public APIGatewayProxyResponse Get(APIGatewayProxyRequest request)
+        public APIGatewayProxyResponse GetPallet(APIGatewayProxyRequest request)
         {
             if (request.PathParameters != null && request.PathParameters.ContainsKey("palletId") &&
                 int.TryParse(request.PathParameters["palletId"], out var palletId))
