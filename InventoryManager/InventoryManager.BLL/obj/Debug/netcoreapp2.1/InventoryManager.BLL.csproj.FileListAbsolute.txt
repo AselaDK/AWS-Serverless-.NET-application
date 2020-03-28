@@ -1,0 +1,13 @@
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.Client.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.Database.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.Database.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.csprojAssemblyReference.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.AssemblyInfoInputs.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.AssemblyInfo.cs
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.BLL.deps.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.BLL.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.BLL.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\bin\Debug\netcoreapp2.1\InventoryManager.Client.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.csproj.CopyComplete
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.BLL\obj\Debug\netcoreapp2.1\InventoryManager.BLL.pdb

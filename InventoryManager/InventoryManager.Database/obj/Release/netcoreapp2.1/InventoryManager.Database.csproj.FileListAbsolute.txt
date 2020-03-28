@@ -1,0 +1,10 @@
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\bin\Release\netcoreapp2.1\InventoryManager.Database.deps.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\bin\Release\netcoreapp2.1\InventoryManager.Database.runtimeconfig.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\bin\Release\netcoreapp2.1\InventoryManager.Database.runtimeconfig.dev.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\bin\Release\netcoreapp2.1\InventoryManager.Database.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\bin\Release\netcoreapp2.1\InventoryManager.Database.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\obj\Release\netcoreapp2.1\InventoryManager.Database.csprojAssemblyReference.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\obj\Release\netcoreapp2.1\InventoryManager.Database.AssemblyInfoInputs.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\obj\Release\netcoreapp2.1\InventoryManager.Database.AssemblyInfo.cs
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\obj\Release\netcoreapp2.1\InventoryManager.Database.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Database\obj\Release\netcoreapp2.1\InventoryManager.Database.pdb

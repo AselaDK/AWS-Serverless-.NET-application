@@ -8,7 +8,7 @@
 		"Get" : {
 			"Type" : "AWS::Serverless::Function",
 			"Properties": {
-				"Handler": "InventoryManager::InventoryManager.Functions::Get",
+				"Handler": "InventoryManager::InventoryManager.GetPalletFunction::GetPallet",
 				"Runtime": "dotnetcore2.1",
 				"CodeUri": "",
 				"MemorySize": 256,
@@ -19,7 +19,7 @@
 					"RootGet": {
 						"Type": "Api",
 						"Properties": {
-							"Path": "/",
+							"Path": "/GetPallet/{palletId}",
 							"Method": "GET"
 						}
 					}

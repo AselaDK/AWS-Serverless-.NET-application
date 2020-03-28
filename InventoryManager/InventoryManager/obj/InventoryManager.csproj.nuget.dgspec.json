@@ -4,14 +4,159 @@
     "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj": {
+    "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\InventoryManager.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj",
-        "projectName": "InventoryManager",
-        "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj",
+        "projectUniqueName": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\InventoryManager.BLL.csproj",
+        "projectName": "InventoryManager.BLL",
+        "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\InventoryManager.BLL.csproj",
         "packagesPath": "C:\\Users\\asela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\obj\\",
+        "outputPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\InventoryManager.Client.csproj": {
+                "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\InventoryManager.Client.csproj"
+              },
+              "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+                "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\InventoryManager.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\InventoryManager.Client.csproj",
+        "projectName": "InventoryManager.Client",
+        "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\InventoryManager.Client.csproj",
+        "packagesPath": "C:\\Users\\asela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj",
+        "projectName": "InventoryManager.Database",
+        "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj",
+        "packagesPath": "C:\\Users\\asela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -55,6 +200,112 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj",
+        "projectName": "InventoryManager",
+        "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\InventoryManager.csproj",
+        "packagesPath": "C:\\Users\\asela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\InventoryManager.BLL.csproj": {
+                "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.BLL\\InventoryManager.BLL.csproj"
+              },
+              "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj": {
+                "projectPath": "C:\\Users\\asela\\source\\repos\\AWS-Serverless-.NET-application5\\InventoryManager\\InventoryManager.Database\\InventoryManager.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -73,6 +324,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
         }
       }
     }

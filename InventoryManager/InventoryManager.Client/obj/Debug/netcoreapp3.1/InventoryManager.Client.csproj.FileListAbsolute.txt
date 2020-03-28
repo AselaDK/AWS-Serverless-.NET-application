@@ -1,0 +1,7 @@
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\bin\Debug\netcoreapp3.1\InventoryManager.Client.deps.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\bin\Debug\netcoreapp3.1\InventoryManager.Client.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\bin\Debug\netcoreapp3.1\InventoryManager.Client.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\obj\Debug\netcoreapp3.1\InventoryManager.Client.AssemblyInfoInputs.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\obj\Debug\netcoreapp3.1\InventoryManager.Client.AssemblyInfo.cs
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\obj\Debug\netcoreapp3.1\InventoryManager.Client.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager.Client\obj\Debug\netcoreapp3.1\InventoryManager.Client.pdb

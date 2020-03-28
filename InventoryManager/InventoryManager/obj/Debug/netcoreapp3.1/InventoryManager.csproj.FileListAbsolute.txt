@@ -1,0 +1,17 @@
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.deps.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.runtimeconfig.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.runtimeconfig.dev.json
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.csprojAssemblyReference.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.AssemblyInfoInputs.cache
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.AssemblyInfo.cs
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.BLL.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.Client.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.Database.dll
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.BLL.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.Database.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\bin\Debug\netcoreapp3.1\InventoryManager.Client.pdb
+C:\Users\asela\source\repos\AWS-Serverless-.NET-application5\InventoryManager\InventoryManager\obj\Debug\netcoreapp3.1\InventoryManager.csproj.CopyComplete
