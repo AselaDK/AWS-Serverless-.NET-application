@@ -10,6 +10,13 @@
 				"BucketName": "inventory-manager-bucket-x10"
 			}
 		},
+		"DBSubnetGroup": {
+			"Type": "AWS::RDS::DBSubnetGroup",
+			"Properties": {
+				"DBSubnetGroupDescription": "Inventory Manager DB subnet group",
+				"SubnetIds": [{ "Ref":"SubnetA" }, { "Ref":"SubnetB" }]
+			}
+		},
 		"Database": {
 			"Type": "AWS::RDS::DBInstance",
 			"Properties": {
@@ -17,9 +24,66 @@
 				"AllocatedStorage": "20",
 				"Engine": "sqlserver-ex",
 				"PubliclyAccessible": true,
+				"DBSubnetGroupName": { "Ref":"DBSubnetGroup" },
+				"VPCSecurityGroups": [{ "Ref":"SecurityGroup" }],
 				"MasterUsername": "yourusername",
 				"MasterUserPassword": "youruserpassword"
 			}
+		},
+		"VPC": {
+			"Type": "AWS::EC2::VPC",
+			"Properties": {
+				"CidrBlock": "10.0.0.0/16"
+			}
+		},
+		"SubnetA": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {
+				"AvailabilityZone": "eu-central-la",
+				"VpcId": { "Ref":"VPC" },
+				"CidrBlock": "10.0.0.0/24"
+			}
+		},
+		"SubnetB": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {
+				"AvailabilityZone": "eu-central-lb",
+				"VpcId": { "Ref":"VPC" },
+				"CidrBlock": "10.0.1.0/24"
+			}
+		},
+		"SecurityGroup": {
+			"Type": "AWS::EC2::SecurityGroup",
+			"Properties": {
+				"GroupName": "InventoryManagerSecurityGroup",
+				"GroupDescription": "Security Group for inventory manager stack",
+				"SecurityGroupIngress": [{
+					"IpProtocol": "-1",
+					"CidrIp": "0.0.0.0/0"
+				}],
+				"SecurityGroupEgress": [{
+					"IpProtocol": "-1",
+					"CidrIp": "0.0.0.0/0"
+				}],
+				"VpcId": { "Ref": "VPC" }
+			}
+		}
+	},
+	"Outputs": {
+		"InventoryManagerFirstSubnet": {
+			"Description": "The Inventory Manager first subnet",
+			"Value": { "Ref": "SubnetA"},
+			"Export": { "Name": "InventorManagerFirstSubnet" }
+		},
+		"InventoryManagerSecondSubnet": {
+			"Description": "The Inventory Manager second subnet",
+			"Value": { "Ref": "SubnetB"},
+			"Export": { "Name": "InventorManagerSecondSubnet" }
+		},
+		"InventoryManagerSecurityGroup": {
+			"Description": "The Inventory Manager security group",
+			"Value": { "Ref": "SecurityGroup"},
+			"Export": { "Name": "InventorManagerSecurityGroup" }
 		}
 	}
 }
