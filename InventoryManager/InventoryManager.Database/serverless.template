@@ -10,11 +10,36 @@
 				"BucketName": "inventory-manager-bucket-x10"
 			}
 		},
+		"InternetGateway": {
+			"Type": "AWS::EC2::InternetGateway"
+		},
+		"VPCGatewayAttachment": {
+		  "Type" : "AWS::EC2::VPCGatewayAttachment",
+		  "Properties" : {
+			  "VpcId": { "Ref":"VPC" },
+				"InternetGatewayId": { "Ref": "InternetGateway"}
+			}
+		},
 		"DBSubnetGroup": {
 			"Type": "AWS::RDS::DBSubnetGroup",
 			"Properties": {
 				"DBSubnetGroupDescription": "Inventory Manager DB subnet group",
 				"SubnetIds": [{ "Ref":"SubnetA" }, { "Ref":"SubnetB" }]
+			}
+		},
+		"RouteTable": {
+			"Type" : "AWS::EC2::RouteTable",
+			"Properties": {
+				"VpcId": { "Ref": "VPC" }
+			}
+		},
+		"InternetRoute": {
+			"Type": "AWS::EC2::Route",
+			"DependsOn": "VPCGatewayAttachment",
+			"Properties" : {
+				"DestinationCidrBlock": "0.0.0.0/0",
+				"GatewayId": { "Ref": "InternetGateway"},
+				"RouteTableId": { "Ref": "RouteTable"}
 			}
 		},
 		"Database": {
@@ -33,6 +58,8 @@
 		"VPC": {
 			"Type": "AWS::EC2::VPC",
 			"Properties": {
+				"EnableDnsHostnames": true,
+				"EnableDnsSupport": true,
 				"CidrBlock": "10.0.0.0/16"
 			}
 		},
@@ -50,6 +77,20 @@
 				"AvailabilityZone": "eu-central-lb",
 				"VpcId": { "Ref":"VPC" },
 				"CidrBlock": "10.0.1.0/24"
+			}
+		},
+		"SubnetARouteTableAssociation": {
+			"Type": "AWS::EC2::SubnetRouteTableAssociation",
+			"Properties": {
+				"RouteTableId": { "Ref": "RouteTable" },
+				"SubnetId": { "Ref": "SubnetA" }
+			}
+		},
+		"SubnetBRouteTableAssociation": {
+			"Type": "AWS::EC2::SubnetRouteTableAssociation",
+			"Properties": {
+				"RouteTableId": { "Ref": "RouteTable" },
+				"SubnetId": { "Ref": "SubnetB" }
 			}
 		},
 		"SecurityGroup": {
